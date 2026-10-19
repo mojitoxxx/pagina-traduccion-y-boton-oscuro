@@ -1,0 +1,58 @@
+body {
+  background: #f7f7f2;
+  color: #14213d;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+
+
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#cabecera h1 {
+  font-family: Georgia, serif;
+}
+
+.autor {
+  color: gray;
+}
+
+#portada {
+  width: 100%;
+}
+
+.seccion {
+  margin-top: 30px;
+}
+
+.seccion h2 {
+  border-left: 5px solid #e09f3e;
+  padding-left: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.izquierda {
+  float: left;
+  width: 45%;
+  margin-right: 20px;
+}
+
+.fila {
+  display: flex;
+  gap: 10px;
+}
+
+.fila img {
+  width: 50%;
+}
+
+.centrada {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
